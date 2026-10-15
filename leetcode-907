@@ -27,6 +27,6 @@ public:
             long long right = nse[i] - i;
             ans = (ans + arr[i] * left % MOD * right % MOD) % MOD;
         }
-        return ans;
+         return ans;
     }
 };
